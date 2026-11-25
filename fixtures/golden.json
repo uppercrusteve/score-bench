@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-25",
+ "note": "kept/dropped 来自 digest 当日人工判断，不是随机抽样；reason 是落选理由",
+ "kept": [
+  {
+   "fullName": "K-Dense-AI/scientific-agent-skills",
+   "solves": "科研 agent 缺现成领域技能与数据库接入，每次都从零写"
+  },
+  {
+   "fullName": "wshobson/agents",
+   "solves": "同一套 agent/skill 要为 7 个 CLI 各维护一份，改一处要改七处"
+  },
+  {
+   "fullName": "google-labs-code/stitch-skills",
+   "solves": "agent 调 Stitch MCP 做 UI 没有约定好的调用套路"
+  },
+  {
+   "fullName": "tt-a1i/archify",
+   "solves": "口头需求到架构图要手画，Mermaid 出图死板"
+  },
+  {
+   "fullName": "coreyhaines31/marketingskills",
+   "solves": "营销侧动作（CRO/文案/SEO）没有可执行的检查步骤"
+  },
+  {
+   "fullName": "davila7/claude-code-templates",
+   "solves": "Claude Code 组件散落各处，安装和切换靠手抄"
+  },
+  {
+   "fullName": "cathrynlavery/diagram-design",
+   "solves": "AI 出图默带阴影和 Mermaid 味，做不出编辑级版式"
+  },
+  {
+   "fullName": "elementalsouls/Claude-BugHunter",
+   "solves": "红队工作没有按漏洞类归档的现成套路"
+  },
+  {
+   "fullName": "alchaincyf/huashu-design",
+   "solves": "给一句话拿回的设计全是通用 AI 味"
+  },
+  {
+   "fullName": "OthmanAdi/planning-with-files",
+   "solves": "长任务跨 /clear 和 compaction 后计划全丢"
+  },
+  {
+   "fullName": "MengTo/Skills",
+   "solves": "设计类指令太泛，产出不可交付"
+  },
+  {
+   "fullName": "danielwh2/sprite-stacking",
+   "solves": "2D 像素素材做不出可旋转的伪 3D"
+  },
+  {
+   "fullName": "addyosmani/agent-skills",
+   "solves": "agent 写生产代码缺工程规范约束"
+  },
+  {
+   "fullName": "Donchitos/Claude-Code-Game-Studios",
+   "solves": "多 agent 协作没有组织模型，只能平铺"
+  },
+  {
+   "fullName": "obsidianmd/obsidian-skills",
+   "solves": "agent 读写 Obsidian/开放格式容易写坏结构"
+  },
+  {
+   "fullName": "mvanhorn/last30days-skill",
+   "solves": "多平台舆情得人工逐个翻页"
+  },
+  {
+   "fullName": "AgriciDaniel/claude-seo",
+   "solves": "SEO 工作量拆不到可执行粒度，且缺 GEO/agent 可读性"
+  },
+  {
+   "fullName": "sickn33/agentic-awesome-skills",
+   "solves": "skill 上千条就检索不动，agent 只能瞎选"
+  },
+  {
+   "fullName": "Vincentwei1021/video-shotcraft",
+   "solves": "Remotion 视频每次从零写分镜，节奏靠手感"
+  },
+  {
+   "fullName": "thedotmack/claude-mem",
+   "solves": "每次开新会话上下文清零，重复交代前情"
+  },
+  {
+   "fullName": "Leonxlnx/taste-skill",
+   "solves": "agent 出的页面千篇一律，没有美术指导"
+  },
+  {
+   "fullName": "teng-lin/notebooklm-py",
+   "solves": "NotebookLM 没有公开 API，agent 接不进去"
+  },
+  {
+   "fullName": "Egonex-AI/Understand-Anything",
+   "solves": "读陌生代码库只能靠逐个翻文件"
+  },
+  {
+   "fullName": "wondelai/skills",
+   "solves": "书里的方法论直接丢给 agent 会散成一句句口号"
+  },
+  {
+   "fullName": "uxpilot-ai/user-interview-skill",
+   "solves": "用户访谈提纲容易写成引导性提问"
+  }
+ ],
+ "dropped": [
+  {
+   "fullName": "alirezarezvani/claude-skills",
+   "reason": "410 条跨领域大杂烩，靠体量堆砌，没有统一机制或装配方式"
+  },
+  {
+   "fullName": "career-ops-hq/career-ops",
+   "reason": "求职应用（扫岗/改简历），是产品不是 skill 层构件"
+  },
+  {
+   "fullName": "NVIDIA/skills",
+   "reason": "绑定 NVIDIA 自家产品面（CUDA/机器人/仿真），通用性低"
+  },
+  {
+   "fullName": "AlphaGBM/skills",
+   "reason": "绑定单一行情数据源，属领域 skill 包"
+  },
+  {
+   "fullName": "nanocoai/nanoclaw",
+   "reason": "自托管常驻助手应用，本质是 agent 运行时框架"
+  }
+ ]
+}
